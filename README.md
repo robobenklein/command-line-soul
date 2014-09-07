@@ -13,5 +13,5 @@ Checklist:
  ☑ Automatically remove the sentences that didn't pass a grammer check. (NLTK or some analysis)
  ☐ Record sentences and responses. (MongoDB?)
  ☐ Identify sentiment comparison for each combination (Sentiment Analysis)
-
+ ☐ Get lots of responses, begin interpreting actions (Computer voice control?)
 
