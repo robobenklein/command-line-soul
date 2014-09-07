@@ -30,16 +30,6 @@
 #
 # 4 Spaces for one Indent
 #
-'''
-
-v/ Generate random sets of words between 2 and some number of words. (Get list of words from .txt)
-v/ Automatically remove the sentences that didn't pass a grammer check. (NLTK or some analysis)
-[] Record sentences and responses. (MongoDB?)
-[] Identify sentiment comparison for each combination (Sentiment Analysis)
-
-
-
-'''
 
 
 import random
