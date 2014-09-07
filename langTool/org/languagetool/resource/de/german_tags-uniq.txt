@@ -1,0 +1,130 @@
+SUB pos=nomen
+EIG pos=eigenname
+VER pos=verb
+ADJ pos=adjektiv
+ART pos=artikel
+PRO pos=pronomen
+ADV pos=adverb
+PRP pos=präposition
+NEG pos=negationspartikel
+ABK pos=abkürzung
+ZAL pos=zahlwort
+INJ pos=interjektion [NIE BENUTZT]
+ZUS pos=verbzusatz
+
+AKK kasus=akkusativ
+NOM kasus=nominativ
+DAT kasus=dativ
+GEN kasus=genitiv
+
+PLU numerus=plural
+SIN numerus=singular
+
+COU eigenname=land
+MOU eigenname=gebirge
+VOR eigenname=vorname
+NAC eigenname=nachname
+GEO eigenname=geographischer_eigenname
+GEB eigenname=gebiet
+PER eigenname=personal
+STD eigenname=stadt
+WAT eigenname=gewässer
+
+// nur bei EIG (nie benutzt):
+ART artikel=mit
+NOA artikel=ohne
+
+
+AUX verbtyp=hilfsverb
+MOD verbtyp=modalverb
+
+INF form=infinitiv
+EIZ form=erw_infinitiv_mit_zu
+IMP form=imperativ
+PA1 form=partizip1
+PA2 form=partizip2
+
+KJ1 modus=konjunktiv1
+KJ2 modus=konjunktiv2
+PRT modus=präteritum_imperfekt
+PRÄ modus=präsens
+
+
+
+SFT konjugation=schwach
+NON konjugation=nicht-schwach
+
+ATT gebrauch=attributiv
+PRD gebrauch=prädikativ
+
+1 person=1
+2 person=2
+3 person=3
+
+GRU komparation=grundform
+KOM komparation=komparativ
+SUP komparation=superlativ
+
+BEG stellung=begleitend
+STV stellung=stellvertretend
+B/S => BEG|STV
+
+DEM pronomen=demonstrativ
+IND pronomen=unbestimmt
+REL pronomen=relativ
+INR pronomen=interrogativ
+PER pronomen=personal
+REF pronomen=reflexiv
+POS pronomen=possessiv
+RIN => INR|REL
+
+LOK partikel=lokal
+TMP partikel=temporal
+MOD partikel=modal
+CAU partikel=kausal
+INR partikel=interrogativ
+
+FEM genus=femininum
+MAS genus=maskulinum
+NOG genus=ohne_genus
+NEU genus=neutrum
+
+
+DEF adjektiv=bestimmt
+SOL adjektiv=alleinstehend
+IND adjektiv=unbestimmt
+
+DEF artikel=bestimmt
+IND artikel=unbestimmt
+
+// eher raus:
+NEB konjunktion=nebenordnend
+UNT konjunktion=unterordnend
+VGL konjunktion=vergleichend
+INF konjunktion=infinitiv
+PRI konjunktion=proportional
+
+
+---------^ DONE
+
+
+
+(eigtl.: typ)
+// können sowohl an ADV als auch PRP hängen:
+//TODO: 'partikel' nicht so gut
+
+//TODO: eher raus
+typ eigenname
+
+
+
+
+
+
+
+
+// raus (geschlossen, nie benutzt)
+A pronomen=höflich
+B pronomen=vertraut
+
+
