@@ -1,21 +1,17 @@
-Copyright 2014 Ben Klein <robobenklein@gmail.com>
-
-This program is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation; either version 2 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program; if not, write to the Free Software
-Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
-MA 02110-1301, USA.
-
 
 This project requires the following:
 - NLTK
 - pip install future
+
+This is an experiment for AI.
+
+Right now, it attempts to create random correctly syntaxed statements using a word list.
+
+Checklist:
+
+☑ Generate random sets of words between 2 and some number of words. (Get list of words from .txt)
+☑ Automatically remove the sentences that didn't pass a grammer check. (NLTK or some analysis)
+☐ Record sentences and responses. (MongoDB?)
+☐ Identify sentiment comparison for each combination (Sentiment Analysis)
+
+
