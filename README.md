@@ -1,8 +1,4 @@
 
-This project requires the following:
-- NLTK
-- pip install future
-
 This is an experiment for AI.
 
 Right now, it attempts to create random correctly syntaxed statements using a word list.
