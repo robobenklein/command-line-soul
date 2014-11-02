@@ -3,11 +3,8 @@ This is an experiment for AI.
 
 Right now, it attempts to create random correctly syntaxed statements using a word list.
 
-Checklist:
+I'm looking for people experienced anywhere from Python to Sentiment/Language analysis to help out.
 
- ☑ Generate random sets of words between 2 and some number of words. (Get list of words from .txt)
- ☑ Automatically remove the sentences that didn't pass a grammer check. (NLTK or some analysis)
- ☐ Record sentences and responses. (MongoDB?)
- ☐ Identify sentiment comparison for each combination (Sentiment Analysis)
- ☐ Get lots of responses, begin interpreting actions (Computer voice control?)
+The goal of the project is to have an open-source 'entity' that will learn how to be human-like by interacting with real humans.
 
+The first steps are likely going to be generating a large list of plausible responses from nearly random generated sentences. Once enough are created, we can turn the tables and let the human ask the program for a response.
